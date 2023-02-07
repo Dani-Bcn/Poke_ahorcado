@@ -5,7 +5,7 @@
 }
 
 html {
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 main {
@@ -42,7 +42,8 @@ main {
   justify-content: center;
   margin-bottom: 50px;
 }
-.score{
+
+.score {
   position: absolute;
   top: 0;
   right: 0;
@@ -100,9 +101,9 @@ h1 {
   font-size: 2rem;
   margin: 5px;
   transition: all 0.5s
-  
 }
-.buttons:hover{
+
+.buttons:hover {
   transition: all 0.5s;
   cursor: pointer;
   background-color: rgb(146, 114, 180);
@@ -120,31 +121,32 @@ article {
   font-size: 2rem;
 }
 
-.container-end-game{
+.container-end-game {
   position: absolute;
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   background-color: rgba(27, 27, 27, 0.726);
   backdrop-filter: blur(5px);
 }
+
 .container-end-game h3 {
   font-size: 2rem;
   color: rgb(155, 195, 248);
-}  
+}
 
 
 .container-end-game h2 {
-  color: rgb(248, 226, 155); 
+  color: rgb(248, 226, 155);
   font-family: pokeFontBack;
   font-size: 4rem;
   letter-spacing: 7px;
 
 }
 
-.btn-end{
+.btn-end {
   width: 100px;
   height: 5px;
   padding: 25px;
@@ -153,14 +155,15 @@ article {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border:1px solid rgb(0, 204, 255);
+  border: 1px solid rgb(0, 204, 255);
   background-color: rgba(126, 103, 150, 0.911);
-  color: rgb(248, 226, 155); 
+  color: rgb(248, 226, 155);
   font-size: 1.5rem;
   margin-top: 50px;
   cursor: pointer;
 }
-.btn-end2{
+
+.btn-end2 {
   width: 100px;
   height: 5px;
   padding: 25px;
@@ -169,25 +172,26 @@ article {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border:1px solid rgb(0, 204, 255);
+  border: 1px solid rgb(0, 204, 255);
   background-color: rgba(126, 103, 150, 0.911);
-  color: rgb(248, 226, 155); 
+  color: rgb(248, 226, 155);
   font-size: 1.5rem;
   margin-top: 50px;
   cursor: pointer;
 }
 
 
-.img-end{
+.img-end {
   width: 400px;
-  height:100%;
+  height: 100%;
   margin-top: -75px;
   margin-left: 50px;
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: center;
 }
-img{
+
+img {
   height: 90%;
 }
 
@@ -204,7 +208,7 @@ img{
 
   h1 {
     font-size: 3rem;
-    top:-20px
+    top: -20px
   }
 
   .back-h1 {
@@ -234,32 +238,36 @@ img{
     border-radius: 10px;
     font-size: 2rem;
   }
-  .container-end-game  {  
+
+  .container-end-game {
     flex-direction: column;
   }
 
- 
-  .container-end-game  h3{  
+
+  .container-end-game h3 {
     font-size: 1.5rem;
   }
-  .container-end-game  h2{  
+
+  .container-end-game h2 {
     font-size: 2.5rem;
     margin-top: 50px;
     letter-spacing: 2.5px;
     text-align: center;
     width: 320px;
   }
-  
 
-  .img-end{
+
+  .img-end {
     width: 200px;
     height: 400px;
     margin-left: 0;
   }
-  .btn-end2{
+
+  .btn-end2 {
     margin-top: -50px;
   }
-  .score{
+
+  .score {
     top: 100px;
     left: 20px;
   }
@@ -298,28 +306,39 @@ img{
     font-size: 1.5rem;
     margin: 5px;
   }
-  .card-end-game{
+
+  .card-end-game {
     width: 300px;
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .container-end-game h3 {  
-    font-size: 1.5rem;  
+
+  .container-end-game h3 {
+    font-size: 1.5rem;
   }
-  .container-end-game h2 {  
+
+  .container-end-game h2 {
     font-size: 1.5rem;
     margin: 19px;
     width: 400px;
-    text-align: center; 
-  
+    text-align: center;
+
   }
+
   .img-end {
     margin-right: -50px;
   }
-  .score{
-    top: 0px;
+
+  .score {
+    top: -40px;
     left: 235px;
+  }
+
+  article {
+    width: 300px;
+    height: 125px;
+    margin-top: 20px
   }
 }
