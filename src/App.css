@@ -44,7 +44,7 @@ main {
 }
 .score{
   position: absolute;
-  top: 100px;
+  top: 0;
   right: 0;
   margin: 20px;
   font-size: 1.3rem;
@@ -259,6 +259,10 @@ img{
   .btn-end2{
     margin-top: -50px;
   }
+  .score{
+    top: 100px;
+    left: 20px;
+  }
 
 }
 
@@ -313,5 +317,9 @@ img{
   }
   .img-end {
     margin-right: -50px;
+  }
+  .score{
+    top: 0px;
+    left: 235px;
   }
 }

@@ -105,17 +105,14 @@ const App = () => {
     items.current[id].style.backgroundColor = "rgba(126, 103, 150, 0.911)"
     letter = target.innerHTML
     name.map((e, i) => {
-      if (letter === e) {
-       
+      if (letter === e) {       
         stateSecret[i] = e
         count++
         if (!stateSecret.includes("_")) {
-          setScore(score + 50)
-        
+          setScore(score + 50)        
           setPhrase("Perfecto !!!")
           setStateWinner(true)
           setResetGame(true)
-
         }
       }
       setStateSecret([...stateSecret])
@@ -149,10 +146,11 @@ const App = () => {
               ease: "backOut"
             }
           }}>
-          <article className="score"><h4> Puntos {score} en {countGames} partidas</h4></article>
+        
           <h1 className="back-h1">Poke_Ahorcado</h1>
           <h1>Poke_Ahorcado</h1>
         </m.section>
+        <article className="score"><h4> Puntos {score} en {countGames} partidas</h4></article>
         <m.section className="container-letters"
           animate={{
             y: [100, 0]
