@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CardButtons = ({letters,countTries,handleClick,items}) => {
-    return (
+    return ( 
         <> 
             <section className="container-buttons">
                 {
