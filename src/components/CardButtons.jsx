@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardButtons = ({letters,countTries,handleClick,items}) => {
     return (
-        <>
+        <> 
             <section className="container-buttons">
                 {
                     letters.map((e, i) => (

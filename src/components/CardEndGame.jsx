@@ -4,7 +4,7 @@ import { AnimatePresence, motion as m } from 'framer-motion'
 
 const CardEnfGame = (({ name, valuesImg, funcResetGame, phrase }) => {
 
-    return (
+    return ( 
 
         <m.section className="container-end-game"
             animate={{

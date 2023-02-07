@@ -6,7 +6,7 @@ import './App.css'
 
 
 const App = () => {
-
+ 
   const limitCalls = 1200
   const endPointApi = `https://pokeapi.co/api/v2/pokemon?limit=${limitCalls}`
   const [valuesForImg, setValuesForImg] = useState([])
